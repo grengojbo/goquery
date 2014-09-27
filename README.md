@@ -1,4 +1,4 @@
-# goquery - a little like that j-thing, only in Go
+# goquery - a little like that j-thing, only in Go [![Coverage Status](https://coveralls.io/repos/grengojbo/goquery/badge.png)](https://coveralls.io/r/grengojbo/goquery) [![build status](https://secure.travis-ci.org/grengojbo/goquery.png)](http://travis-ci.org/grengojbo/goquery)
 
 My changes for the normal build in the Mac OS X:
   - code.google.com/p/cascadia -> github.com/grengojbo/goquery/exp/cascadia
