@@ -1,8 +1,8 @@
 # goquery - a little like that j-thing, only in Go
 
-[![build status](https://secure.travis-ci.org/PuerkitoBio/goquery.png)](http://travis-ci.org/PuerkitoBio/goquery)
-
-[![GoDoc](https://godoc.org/github.com/PuerkitoBio/goquery?status.png)](http://godoc.org/github.com/PuerkitoBio/goquery)
+My changes for the normal build in the Mac OS X:
+  - code.google.com/p/cascadia -> github.com/grengojbo/goquery/exp/cascadia
+  - code.google.com/p/go.net/html -> github.com/grengojbo/goquery/exp/html
 
 GoQuery brings a syntax and a set of features similar to [jQuery][] to the [Go language][go]. It is based on Go's [net/html package][html] and the CSS Selector library [cascadia][]. Since the net/html parser returns tokens (nodes), and not a full-featured DOM object, jQuery's manipulation and modification functions have been left off (no point in modifying data in the parsed tree of the HTML, it has no effect).
 
@@ -96,12 +96,12 @@ The [BSD 3-Clause license][bsd], the same as the [Go language][golic]. Cascadia'
 
 [jquery]: http://jquery.com/
 [go]: http://golang.org/
-[cascadia]: http://code.google.com/p/cascadia/
+[cascadia]: http://github.com/grengojbo/goquery/exp/cascadia/
 [bsd]: http://opensource.org/licenses/BSD-3-Clause
 [golic]: http://golang.org/LICENSE
-[caslic]: http://code.google.com/p/cascadia/source/browse/LICENSE
+[caslic]: http://github.com/grengojbo/goquery/exp/cascadia/source/browse/LICENSE
 [doc]: http://godoc.org/github.com/PuerkitoBio/goquery
 [index]: http://api.jquery.com/index/
 [gonet]: http://code.google.com/p/go/source/detail?r=f7f5159120f51ba0070774d3c5907969b5fe7858&repo=net
-[html]: http://godoc.org/code.google.com/p/go.net/html
+[html]: http://godoc.org/github.com/grengojbo/goquery/exp/html
 [wiki]: https://github.com/PuerkitoBio/goquery/wiki/Tips-and-tricks

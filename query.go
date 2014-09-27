@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"code.google.com/p/cascadia"
-	"code.google.com/p/go.net/html"
+	"github.com/grengojbo/goquery/exp/cascadia"
+	"github.com/grengojbo/goquery/exp/html"
 )
 
 var rxClassTrim = regexp.MustCompile("[\t\r\n]")

@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"code.google.com/p/go.net/html"
+	"github.com/grengojbo/goquery/exp/html"
 )
 
 // Test helper functions and members

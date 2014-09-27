@@ -1,8 +1,8 @@
 package goquery
 
 import (
-	"code.google.com/p/cascadia"
-	"code.google.com/p/go.net/html"
+	"github.com/grengojbo/goquery/exp/cascadia"
+	"github.com/grengojbo/goquery/exp/html"
 )
 
 type siblingType int

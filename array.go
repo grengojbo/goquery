@@ -1,7 +1,7 @@
 package goquery
 
 import (
-	"code.google.com/p/go.net/html"
+	"github.com/grengojbo/goquery/exp/html"
 )
 
 // First reduces the set of matched elements to the first in the set.
