@@ -16,16 +16,16 @@ Syntax-wise, it is as close as possible to jQuery, with the same function names 
 
 Please note that because of the net/html dependency, goquery requires Go1.1+.
 
-    $ go get github.com/PuerkitoBio/goquery
+    $ go get github.com/grengojbo/goquery
 
 (optional) To run unit tests:
     
-    $ cd $GOPATH/src/github.com/PuerkitoBio/goquery
+    $ cd $GOPATH/src/github.com/grengojbo/goquery
     $ go test
 
 (optional) To run benchmarks (warning: it runs for a few minutes):
 
-    $ cd $GOPATH/src/github.com/PuerkitoBio/goquery
+    $ cd $GOPATH/src/github.com/grengojbo/goquery
     $ go test -bench=".*"
 
 ## Changelog
@@ -69,7 +69,7 @@ import (
   "fmt"
   "log"
 
-  "github.com/PuerkitoBio/goquery"
+  "github.com/grengojbo/goquery"
 )
 
 func ExampleScrape() {
@@ -100,8 +100,8 @@ The [BSD 3-Clause license][bsd], the same as the [Go language][golic]. Cascadia'
 [bsd]: http://opensource.org/licenses/BSD-3-Clause
 [golic]: http://golang.org/LICENSE
 [caslic]: http://github.com/grengojbo/goquery/exp/cascadia/source/browse/LICENSE
-[doc]: http://godoc.org/github.com/PuerkitoBio/goquery
+[doc]: http://godoc.org/github.com/grengojbo/goquery
 [index]: http://api.jquery.com/index/
 [gonet]: http://code.google.com/p/go/source/detail?r=f7f5159120f51ba0070774d3c5907969b5fe7858&repo=net
 [html]: http://godoc.org/github.com/grengojbo/goquery/exp/html
-[wiki]: https://github.com/PuerkitoBio/goquery/wiki/Tips-and-tricks
+[wiki]: https://github.com/grengojbo/goquery/wiki/Tips-and-tricks
